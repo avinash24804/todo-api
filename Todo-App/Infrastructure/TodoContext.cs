@@ -14,6 +14,6 @@ namespace ToDo_App.Infrastructure
 
         }
 
-        public DbSet<TodoList> TodoList { get; set; }
+        public DbSet<TodoList> TodoList { get; set;}
     }
 }
